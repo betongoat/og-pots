@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+}
+
+version = project.mod_version
+group = 'net.betongoat'
+
+base {
+    archivesName = 'ogpots'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    stubs
+}
+
+dependencies {
+    compileOnly sourceSets.stubs.output
+    compileOnly('net.fabricmc:sponge-mixin:0.17.5+mixin.0.8.7') {
+        transitive = false
+    }
+    compileOnly 'org.ow2.asm:asm-tree:9.8'
+    compileOnly 'org.slf4j:slf4j-api:2.0.17'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version
+    }
+}
+
+jar {
+    from('LICENSE') {
+        rename { "LICENSE_${base.archivesName.get()}" }
+    }
+    from('NOTICE.md')
+    manifest {
+        attributes(
+            'Implementation-Title': 'OG Pots',
+            'Implementation-Version': project.version,
+            'Implementation-Vendor': 'betongoat'
+        )
+    }
+}
