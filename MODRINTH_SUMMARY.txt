@@ -1,0 +1,1 @@
+Brings back the classic enchantment glint on potions! Lightweight, client-side, no Fabric API needed. One jar for Minecraft 1.21 to 26.3.

@@ -28,6 +28,7 @@ Minecraft and Fabric Loader classes are not downloaded. The few classes the mod 
 
 ## Modrinth
 - Description: [MODRINTH.md](MODRINTH.md)
+- Summary: [MODRINTH_SUMMARY.txt](MODRINTH_SUMMARY.txt)
 - Icon: [icon.png](icon.png)
 - Loader: Fabric · Environment: client required, server unsupported
 - Game versions: 1.21, 1.21.1, 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3
