@@ -1,21 +1,23 @@
 <center>
 
-# ✨ OG Pots ✨
+<img src="https://raw.githubusercontent.com/betongoat/og-pots/claude/exciting-dijkstra-02zfvv/gallery/0-hero.png" alt="OG Pots" width="100%">
 
 Brings back the **enchantment glint on potions**, just like in the good old days.
 
+![Fabric](https://img.shields.io/badge/Loader-Fabric-dbd0b4?style=for-the-badge)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21%20to%2026.3-62b47a?style=for-the-badge)
+![Client](https://img.shields.io/badge/Side-Client-8a5cf6?style=for-the-badge)
+![License](https://img.shields.io/badge/License-CC--BY--4.0-ef5da8?style=for-the-badge)
+
 Every potion, splash potion and lingering potion that has an effect shines again. Water bottles, awkward, mundane and thick potions stay plain, because they have no effects. **Your potions are shiny again — just like the good old days.**
+
+<img src="https://raw.githubusercontent.com/betongoat/og-pots/claude/exciting-dijkstra-02zfvv/gallery/4-animated-hotbar.gif" alt="Animated glint in the hotbar" width="80%">
 
 ## Features
 
 - One jar for **every version from 1.21 to 26.3** (1.21, 1.21.1 … 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3)
 - Client-side only, no config, no dependencies other than Fabric Loader
 - Fabric API is **not** required
-
-![Fabric](https://img.shields.io/badge/Loader-Fabric-dbd0b4?style=for-the-badge)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21%20to%2026.3-62b47a?style=for-the-badge)
-![Client](https://img.shields.io/badge/Side-Client-8a5cf6?style=for-the-badge)
-![License](https://img.shields.io/badge/License-CC--BY--4.0-ef5da8?style=for-the-badge)
 
 ## Credits & License
 
@@ -37,6 +39,12 @@ In newer versions of Minecraft, potions have **lost their enchantment glint**. *
 
 Every potion with an effect gets the classic shimmer again, so you can spot your potions in the hotbar, in chests and in your hand at a glance.
 
+<center>
+
+<img src="https://raw.githubusercontent.com/betongoat/og-pots/claude/exciting-dijkstra-02zfvv/gallery/1-hotbar-before-after.png" alt="Vanilla hotbar vs hotbar with OG Pots" width="100%">
+
+</center>
+
 - 🎒 **Lightweight**: one tiny jar, no config, no setup
 - 🖥️ **Client-side**: works on any server, vanilla included
 - 🧩 **No dependencies**: Fabric API is **not** required
@@ -55,6 +63,14 @@ Every potion with an effect gets the classic shimmer again, so you can spot your
 | Awkward, Mundane and Thick potions | ❌ |
 
 > Only potions that actually **do something** shine, so useless brews stay plain, exactly like in the old days.
+
+<center>
+
+<img src="https://raw.githubusercontent.com/betongoat/og-pots/claude/exciting-dijkstra-02zfvv/gallery/2-chest-full-of-potions.png" alt="A chest full of shiny potions" width="49%"> <img src="https://raw.githubusercontent.com/betongoat/og-pots/claude/exciting-dijkstra-02zfvv/gallery/3-brewing-stand.png" alt="Shiny potions in a brewing stand" width="49%">
+
+<sub><i>Preview renders made with Minecraft's own textures.</i></sub>
+
+</center>
 
 ---
 
