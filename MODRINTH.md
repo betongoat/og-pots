@@ -2,14 +2,32 @@
 
 # ✨ OG Pots ✨
 
-**Your potions are shiny again — just like the good old days.**
+Brings back the **enchantment glint on potions**, just like in the good old days.
+
+Every potion, splash potion and lingering potion that has an effect shines again. Water bottles, awkward, mundane and thick potions stay plain, because they have no effects. **Your potions are shiny again — just like the good old days.**
+
+## Features
+
+- One jar for **every version from 1.21 to 26.3** (1.21, 1.21.1 … 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2, 26.3)
+- Client-side only, no config, no dependencies other than Fabric Loader
+- Fabric API is **not** required
 
 ![Fabric](https://img.shields.io/badge/Loader-Fabric-dbd0b4?style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21%20to%2026.3-62b47a?style=for-the-badge)
 ![Client](https://img.shields.io/badge/Side-Client-8a5cf6?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-CC--BY--4.0-ef5da8?style=for-the-badge)
 
+## Credits & License
+
+This mod is based on **[Shiny Pots](https://modrinth.com/mod/shiny-pots)** by **[nukebob](https://modrinth.com/user/nukebob)**.
+
 </center>
+
+- The original code is licensed under **[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)**.
+- **Code modified on the basis of the Shiny Pots project**: it was ported so that one jar works from Minecraft 1.21 to 26.3 (separate mixins for 1.21–1.21.4, 1.21.5–1.21.11 and 26.1+, chosen automatically at launch). The name, mod ID and icon were also changed. The gameplay behaviour is unchanged.
+- OG Pots is distributed under the same license, **[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)**.
+
+Source code: https://github.com/betongoat/og-pots
 
 ---
 
@@ -83,16 +101,8 @@ It only changes how potions look on your screen. It gives no gameplay advantage,
 
 ---
 
-## 💜 Credits & License
-
-OG Pots is based on **[Shiny Pots](https://modrinth.com/mod/shiny-pots)** by **[nukebob](https://modrinth.com/user/nukebob)**. Big thanks for the original idea and code!
-
-- 📜 The original code is licensed under **[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)**.
-- 🔧 **Code modified on the basis of the Shiny Pots project**: it was ported so one jar works from Minecraft 1.21 to 26.3, and the name, mod ID and icon were changed. Gameplay behaviour is unchanged.
-- ⚖️ OG Pots is distributed under the same license: **[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)**.
-
 <center>
 
-Made by **betongoat** · [Source code](https://github.com/betongoat/og-pots)
+Made by **betongoat**
 
 </center>
